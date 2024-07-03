@@ -123,6 +123,10 @@
         margin-bottom: 7px;
     }
 
+    .content .timeline p {
+        font-size: 12px !important;
+    }
+
     .battle_hero .content span {
         font-size: 13px;
         line-height: 11px !important;
@@ -411,8 +415,12 @@
         height: auto;
     }
 
-    .more-projects .content {
+    /* .more-projects .content {
         height: 122px;
+    } */
+
+    .more-projects .content {
+        height: 105px;
     }
 
     .more-projects .content .content {
@@ -471,8 +479,17 @@
         width: 100%;
     }
 
-    .more-projects .content a {
+    /* .more-projects .content a {
         display: none;
+    } */
+    .more-projects .content .thumbnail {
+        overflow: hidden;
+        max-width: 100%;
+    }
+
+
+    .project-chart img {
+        width: 58%;
     }
 
     .outside .line {
