@@ -313,7 +313,7 @@ button:focus {
 }
 
 .home_widgets .widget_single .content p {
-    font-size: 16pt;
+    font-size: 16px;
     line-height: 24px;
     color: var(--primary-color);
     word-spacing: 3px;
@@ -472,9 +472,9 @@ button:focus {
 
 /* 
 .battle_hero .content p {
-    font-size: 14pt;
+    font-size: 14px;
     color: #272B32;
-    line-height: 18pt;
+    line-height: 18px;
     margin-bottom: 7px;
 } */
 
@@ -491,9 +491,9 @@ button:focus {
 
 
 .battle_hero .content p {
-    font-size: 16pt;
+    font-size: 16px;
     color: #272B32;
-    line-height: 24pt;
+    line-height: 24px;
     margin-bottom: 7px;
 }
 
@@ -1485,6 +1485,10 @@ img.scale-img {
         font-size: 16px !important;
         line-height: normal !important;
         margin-bottom: 4px;
+    }
+
+    .battle_hero .content .timeline p {
+        font-size: 12px !important;
     }
 }
 
