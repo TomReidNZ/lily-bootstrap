@@ -40,13 +40,25 @@ button:focus {
     outline: none !important;
 }
 
-.container {
+/* .container {
     max-width: 1160px;
+} */
+
+.container {
+    max-width: 1312px;
 }
 
 .container-fluid {
     max-width: 95%;
     padding: 0 20px !important;
+}
+
+.mfp-container {
+    background: #46464a;
+}
+
+.mfp-content {
+    z-index: unset;
 }
 
 
@@ -70,7 +82,8 @@ button:focus {
     top: 0;
     right: 0;
     width: 100%;
-    max-width: 77%;
+    /* max-width: 77%; */
+    max-width: 72.5%;
     height: 100%;
     background: url('../imgs/home/banner-bg.webp');
     background-size: contain;
@@ -236,13 +249,14 @@ button:focus {
 
 .wrapper {
     width: 100%;
-    max-width: 960px;
+    /* max-width: 960px; */
+    max-width: 1312px;
     margin: auto;
 }
 
 .home_widgets .widget_single {
     background: var(--pure-white);
-    border-radius: 10px;
+    border-radius: 20px;
     overflow: hidden;
     margin: 20px 0;
     box-shadow: 0 4px 6px rgb(0 0 0 / 0.08);
@@ -279,7 +293,8 @@ button:focus {
 .home_widgets .widget_single .content ul {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
+    margin-bottom: 16px;
 }
 
 .home_widgets .widget_single .content ul li a {
@@ -298,7 +313,7 @@ button:focus {
 }
 
 .home_widgets .widget_single .content p {
-    font-size: 14pt;
+    font-size: 16px;
     line-height: 24px;
     color: var(--primary-color);
     word-spacing: 3px;
@@ -455,10 +470,30 @@ button:focus {
     margin-bottom: 20px;
 }
 
+/* 
 .battle_hero .content p {
-    font-size: 14pt;
+    font-size: 14px;
     color: #272B32;
-    line-height: 18pt;
+    line-height: 18px;
+    margin-bottom: 7px;
+} */
+
+.content {
+    overflow: hidden;
+}
+
+.thumbnail,
+.thubmnail img {
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.battle_hero .content p {
+    font-size: 16px;
+    color: #272B32;
+    line-height: 24px;
     margin-bottom: 7px;
 }
 
@@ -473,7 +508,7 @@ button:focus {
 .battle_hero .content h6 {
     font-size: 12px;
     color: #525259;
-    margin-top: 20px;
+    margin-top: 16px;
     font-weight: 400;
 }
 
@@ -554,14 +589,25 @@ button:focus {
 
 .sdpod {
     width: 100%;
-    margin-top: -50px;
+    margin-top: -42px;
 }
 
+.w-94 {
+    width: 94%;
+}
 
+.mt-24 {
+    margin-top: 24px;
+}
 
 /* project goals */
 .project_goals {
     padding-bottom: 0px;
+}
+
+section.user-arch p span {
+    display: block;
+    margin-bottom: 16px;
 }
 
 .project_goals h4 {
@@ -653,6 +699,7 @@ button:focus {
 
 .design-features .content {
     position: relative;
+    overflow: visible;
 }
 
 .design-features .content h1 {
@@ -671,10 +718,17 @@ button:focus {
     color: #525259;
 }
 
+/* .design-features .content p span {
+    display: block;
+    color: rgb(60, 140, 134);
+    margin-bottom: 5px;
+} */
+
 .design-features .content p span {
     display: block;
     color: rgb(60, 140, 134);
     margin-bottom: 5px;
+    margin-top: 32px;
 }
 
 .design-features .thumbnail {
@@ -819,6 +873,7 @@ button:focus {
 
 .more-projects .content .thumbnail {
     overflow: hidden;
+    max-width: 220px;
 }
 
 .more-projects .content .thumbnail img {
@@ -893,13 +948,27 @@ button:focus {
     margin: 20px 0;
 }
 
-.dream-team p {
+img.scale-img {
+    transform: scale(1.03);
+    transform-origin: right;
+}
+
+/* .dream-team p {
     margin-bottom: 5px;
     color: rgb(39, 43, 50);
     font-weight: 400;
+} */
+
+.dream-team .content p {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(39, 43, 50);
+    margin-bottom: 12px;
 }
 
-
+.text-525259 {
+    color: #525259;
+}
 
 
 .timeline {
@@ -934,13 +1003,18 @@ button:focus {
     padding-bottom: 0px;
 }
 
+#bravo-dis {
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+
 .user-arch p {
     max-width: 1325px;
     margin: auto;
     padding-bottom: 30px;
     line-height: 17px;
     border-top: 2px solid rgb(207, 207, 216);
-    padding-top: 20px;
+    padding-top: 38px;
 }
 
 .user-arch p span {
@@ -1095,6 +1169,10 @@ button:focus {
     max-width: 1350px;
 }
 
+.hero-img {
+    max-width: 560px;
+}
+
 .about-banner .row {
     align-items: center;
 }
@@ -1162,7 +1240,7 @@ button:focus {
 }
 
 .outside .content p span {
-    font-weight: 600;
+    font-weight: 400;
     color: rgb(60, 140, 134);
     display: block;
     margin-bottom: .5em;
@@ -1282,10 +1360,167 @@ button:focus {
     color: #3C8C86;
 }
 
+.widget_single {
+    max-width: 1152px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.hero-img {
+    max-width: 560px;
+    width: 450px;
+    margin: auto;
+    display: block;
+}
+
+
+
+
+
+@media screen and (min-width: 700px) {
+    .header::before {
+        max-width: 82.5%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .header::before {
+        max-width: 83%;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .header::before {
+        max-width: 81.5%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .header::before {
+        max-width: 80%;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .header::before {
+        max-width: 78%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .header::before {
+        max-width: 75.5%;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .header::before {
+        max-width: 74.5%;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .header::before {
+        max-width: 73.5%;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .header::before {
+        max-width: 72.5%;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .header::before {
+        max-width: 71%;
+    }
+}
+
+@media screen and (min-width: 2100px) {
+    .header::before {
+        max-width: 70.5%;
+    }
+}
+
+@media screen and (min-width: 2200px) {
+    .header::before {
+        max-width: 69%;
+    }
+}
+
+@media screen and (min-width: 2300px) {
+    .header::before {
+        max-width: 68.5%;
+    }
+}
+
+@media screen and (min-width: 2400px) {
+    .header::before {
+        max-width: 67%;
+    }
+}
+
+@media screen and (min-width: 2600px) {
+    .header::before {
+        max-width: 64%;
+    }
+}
+
+
+
+
+
 @media (min-width: 1281px) {
     .headline {
-        max-width: 1280px;
+        /* max-width: 1280px; */
+        max-width: 1440px;
         margin-left: auto;
         margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 1650px) {
+    .battle_hero .content p {
+        font-size: 16px !important;
+        line-height: normal !important;
+        margin-bottom: 4px;
+    }
+
+    .battle_hero .content .timeline p {
+        font-size: 12px !important;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .more-projects .content .text-content {
+        width: 60%;
+        padding: 5px;
+        padding-left: 12px;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .battle_hero .content .buttons {
+        margin-top: 25px;
+        max-width: 250px;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 700) {
+    .scale-thumb {
+        transform: scale(1.03);
+        transform-origin: right;
+    }
+
+    .project-chart img {
+        width: 58%;
+    }
+
+    .project-chart img {
+        width: 58%;
     }
 }
