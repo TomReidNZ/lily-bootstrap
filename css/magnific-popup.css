@@ -250,7 +250,8 @@
     line-height: 0;
     box-sizing: border-box;
     padding: 40px 0 40px;
-    margin: 0 auto; }
+    margin: 0 auto; 
+    scale: 1.5; }
   
   /* The shadow behind the image */
   .mfp-figure {
