@@ -490,6 +490,7 @@
 
     .project-chart img {
         width: 58%;
+        min-width: 428px;
     }
 
     .outside .line {
