@@ -273,14 +273,15 @@
 
   @media (max-width: 575px) {    
     img.mfp-img {        
-      width: 100%;
-      }
+    min-width: 400px;
+    max-width: 400px;
+    }
 
     @media (max-width: 421px) {    
-      img.mfp-img {       
-        width: 100%;
-        min-width: 300px;
-       }
+    img.mfp-img {       
+    min-width: 300px;
+    max-width: 300px;
+    }
   
   /* The shadow behind the image */
   .mfp-figure {
