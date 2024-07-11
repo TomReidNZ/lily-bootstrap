@@ -1472,9 +1472,11 @@ img.scale-img {
     }
 }
 
-
-
-
+@media (max-width: 767px) {
+    .hide-at-767 {
+      display: none;  
+    }
+}
 
 @media (min-width: 1281px) {
     .headline {
