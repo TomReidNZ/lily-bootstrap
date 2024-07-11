@@ -434,7 +434,7 @@ button:focus {
     margin-top: 0;
 }
 
-@media (min-width: 421px) {
+@media (max-width: 421px) {
      .footer h5 {
         font-size: 16px;
     }
